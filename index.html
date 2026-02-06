@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shao_Zhige - 个人介绍</title>
+    <style>
+        /* 全局样式重置 */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Microsoft YaHei', sans-serif;
+        }
+
+        /* 主体背景和基础样式 */
+        body {
+            background-color: #ffffff;
+            color: #333333;
+            line-height: 1.6;
+            padding: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        /* 头部区域样式 */
+        .header {
+            text-align: center;
+            padding: 60px 0;
+            border-bottom: 1px solid #eeeeee;
+            margin-bottom: 40px;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .header .nickname {
+            font-size: 1.2rem;
+            color: #7f8c8d;
+            margin-bottom: 20px;
+        }
+
+        /* 内容区域样式 */
+        .content {
+            padding: 20px 0;
+            margin-bottom: 40px;
+        }
+
+        .content h2 {
+            font-size: 1.8rem;
+            margin-bottom: 20px;
+            color: #34495e;
+            border-left: 4px solid #3498db;
+            padding-left: 10px;
+        }
+
+        .content p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        /* 兴趣爱好样式 */
+        .hobbies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin: 30px 0;
+        }
+
+        .hobby-item {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            border-radius: 20px;
+            border: 1px solid #e9ecef;
+            font-size: 1rem;
+        }
+
+        /* 链接区域样式 */
+        .links {
+            margin: 40px 0;
+            padding: 30px;
+            background-color: #f8f9fa;
+            border-radius: 10px;
+        }
+
+        .link-item {
+            display: block;
+            padding: 15px 20px;
+            margin-bottom: 10px;
+            background-color: #ffffff;
+            border: 1px solid #dee2e6;
+            border-radius: 5px;
+            text-decoration: none;
+            color: #007bff;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .link-item:hover {
+            background-color: #e9f5ff;
+            border-color: #007bff;
+            transform: translateY(-2px);
+        }
+
+        /* 页脚样式 */
+        .footer {
+            text-align: center;
+            padding: 30px 0;
+            border-top: 1px solid #eeeeee;
+            color: #6c757d;
+            margin-top: 50px;
+        }
+
+        /* 响应式适配 */
+        @media (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .content h2 {
+                font-size: 1.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- 头部区域 -->
+    <div class="header">
+        <h1>Shao_Zhige</h1>
+        <p class="nickname">你好，我是勺子 ✨</p>
+    </div>
+
+    <!-- 主要内容区域 -->
+    <div class="content">
+        <h2>关于我</h2>
+        <p>
+            你好！我是 Shao_Zhige ，一名热爱游戏创作的开发者。深耕《我的世界》（Minecraft）模组和整合包开发，
+            热衷于将创意和技术结合，为玩家们打造独特的游戏体验。是团队“星枫创想”的一员。
+        </p>
+
+        <h2>我的兴趣</h2>
+        <div class="hobbies">
+            <div class="hobby-item">我的世界 (Minecraft)</div>
+            <div class="hobby-item">宝可梦 (Pokémon)</div>
+            <div class="hobby-item">游戏模组开发</div>
+            <div class="hobby-item">整合包制作</div>
+        </div>
+
+        <h2>我的身份</h2>
+        <p>
+            我是一名《我的世界》整合包和模组作者。
+            无论是模组的功能开发，还是整合包的资源整合与平衡调整，都是我所擅长和热爱的领域。
+        </p>
+
+        <!-- 链接区域 -->
+        <div class="links">
+            <h2>我的链接</h2>
+            <a href="https://modrinth.com/user/Shao_Zhige" class="link-item">我的世界模组下载</a>
+            <a href="https://www.mcmod.cn/modpack/977.html" class="link-item">我的世界整合包发布页</a>
+            <a href="https://space.bilibili.com/29417891" class="link-item">B站主页</a>
+            <a href="https://github.com/ShaoZhige" class="link-item">GitHub 代码仓库</a>
+            <a href="http://wpa.qq.com/msgrd?v=3&uin=3496669268&site=qq&menu=yes" target="_blank" class="link-item">联系我</a>
+        </div>
+    </div>
+
+    <!-- 页脚 -->
+    <div class="footer">
+        <p>© 2026 Shao_Zhige (是勺子哒) - 我的世界模组/整合包作者</p>
+    </div>
+</body>
+</html>
